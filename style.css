@@ -1,0 +1,155 @@
+/*NAVEGAÇÃO*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 62.5%;
+}
+
+
+nav a {
+  text-decoration: none;
+  color: #C4C4CC;
+}
+
+nav a:hover {
+  color: #FFFFFF;
+}
+
+nav{
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.4rem;
+  line-height: 2.2rem;
+
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+  margin-top: 4rem;
+  margin-left: 7.2rem;
+}
+/*-------------------------------------*/
+
+/*HOME*/
+.homepage h1 {
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  font-size: 4.8rem;
+  line-height: 125%;
+  display: flex;
+  justify-content: center;
+
+  margin-top: 17.2rem;
+}
+
+.homepage .button{
+  display: flex;
+  justify-content: center;
+
+  margin-top: 2.4rem;
+}
+
+.homepage button {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  font-weight: 700;
+
+  padding: 1.2rem 3.2rem;
+  gap: 0.8rem; 
+  color: #ffffff;
+
+  border: 0.2rem solid #FFFFFF;
+  border-radius: 0.5rem;
+
+  background: transparent;
+}
+
+.homepage button:hover {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  font-weight: 700;
+
+  cursor: pointer;
+  color: #02799D;
+  
+  background: #FFFFFF;
+  border: 0.2rem solid #FFFFFF;
+  border-radius: 0.5rem;
+}
+/*----------------------------------------*/
+
+/*O UNIVERSO*/
+.theuniversepage h1 {
+  font-family: 'Roboto', sans-serif;
+  color: #E1E1E6;
+  font-size: 4.8rem;
+  line-height: 125%;
+
+  margin-top: 6.3rem;
+  margin-left: 10.2rem;
+}
+
+.theuniversepage p {
+  font-family: 'Roboto', sans-serif;
+  color: #E1E1E6;
+
+  font-size: 1.8rem;
+  line-height: 160%;
+  
+  width: 64.8rem;
+  margin-top: 1.6rem;
+  margin-left: 10.2rem;
+}
+
+/*--------------------------------------*/
+
+/*EXPLORATION*/
+
+.explorationpage h1 {
+  font-family: 'Roboto', sans-serif;
+  color: #E1E1E6;
+  font-size: 4.8rem;
+  line-height: 125%;
+
+  margin-top: 6.3rem;
+  margin-left: 10.2rem;
+}
+
+.explorationpage p {
+  font-family: 'Roboto', sans-serif;
+  color: #E1E1E6;
+
+  font-size: 1.8rem;
+  line-height: 160%;
+  
+  width: 64.8rem;
+  margin-top: 1.6rem;
+  margin-left: 10.2rem;
+}
+/*----------------------------------------*/
+
+
+body {
+  background-image: url(./images/mountains-universe-1.png); 
+  height: 100vh;
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body.universe {
+  background-image: url(./images/mountains-universe02.png); 
+}
+
+body.exploration {
+  background-image: url(./images/mountains-universe-3.png); 
+}
+
+nav a.active {
+  color: white;
+}
